@@ -18,17 +18,16 @@ function Nav() {
 		},
 	];
 
+	// create function for when a category is selected in navbar
 	function categorySelected(name) {
 		console.log(`${name} clicked`);
 	}
+
 	return (
 		<header>
 			<h2>
 				<a href="/">
-					<span role="img" aria-label="camera">
-						{" "}
-						📸
-					</span>
+					<span role="img" aria-label="camera">📸</span>
 					Oh Snap!
 				</a>
 			</h2>
