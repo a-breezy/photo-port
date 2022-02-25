@@ -26,7 +26,6 @@ describe("emoji is visible", () => {
 		const { getByLabelText } = render(<Nav />);
 
 		// Assert
-		// eslint-disable-next-line testing-library/prefer-screen-queries
 		expect(getByLabelText("camera")).toHaveTextContent("📸");
 	});
 });

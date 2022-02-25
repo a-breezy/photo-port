@@ -1,14 +1,16 @@
 import React from "react";
 // import logo from "./logo.svg";
-import Nav from './components/Nav';
-import About from "./components/About";
 import "./App.css";
+import Nav from "./components/Nav";
+import About from "./components/About";
+import Gallery from "./components/Gallery";
 
 function App() {
 	return (
 		<div>
-      	<Nav></Nav>
+			<Nav></Nav>
 			<main>
+				<Gallery></Gallery>
 				<About></About>
 			</main>
 		</div>
