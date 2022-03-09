@@ -2,7 +2,7 @@ import React from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 import photo from "../../assets/small/commercial/0.jpg";
 
-function Gallery() {
+function Gallery(props) {
 	const currentCategory = {
 		name: "commercial",
 		description:

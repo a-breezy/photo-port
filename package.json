@@ -2,8 +2,10 @@
   "name": "photo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://a-breezy.github.io/photo-port",
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^3.2.3",
     "jest": "^27.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -11,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
